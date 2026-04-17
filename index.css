@@ -9,9 +9,18 @@ body {
     border-radius: 5px;
     border-style: solid;
     border-color: aqua;
+    transition: opacity 0.2s,
+        box-shadow 0.3s;
 }
 .nav:hover {
     opacity: 0.9;
     box-shadow: 10 10 10px rgb(253, 3, 3);
+}
+
+#listing {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
 }
 
