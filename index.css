@@ -6,14 +6,12 @@ body {
 
 .nav {
     border: 2px;
-    border-color: aqua;
+    border-radius: 5px;
     border-style: solid;
-    border-radius: 8px;
-    margin-bottom: 40px;
+    border-color: aqua;
+}
+.nav:hover {
+    opacity: 0.9;
+    box-shadow: 10 10 10px rgb(253, 3, 3);
 }
 
-#listing {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
