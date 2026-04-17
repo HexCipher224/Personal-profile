@@ -3,3 +3,17 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.nav {
+    border: 2px;
+    border-color: aqua;
+    border-style: solid;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+#listing {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
