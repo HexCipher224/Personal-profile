@@ -1,0 +1,116 @@
+body {
+    background-color: #555;
+}
+
+.navbar {
+    border: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    padding: 10px 20px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    margin: 0 10px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: 0.3s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#nav a:hover {
+    background-color: aqua;
+    color: #000;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.projects {
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #fff;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-image img {
+    width: 100%;
+    display: block;
+}
+
+.project-content {
+    padding: 15px;
+}
+
+.project-content h3 {
+    margin: 10px 0;
+}
+
+.project-content p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.project-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-buttons a {
+    text-decoration: none;
+    padding: 8px 12px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.project-buttons a:hover {
+    background: #555;
+}
+
+.projects {
+    background-color: #bab6b6;
+}
